@@ -17,7 +17,8 @@ body {
 
 .blog_container {
     background-color: var(--dark);
-
+    max-width: 960px;
+       margin: 0 auto;
 }
 
 .blog_title {
