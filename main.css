@@ -4,6 +4,7 @@
     --medium: #008080;
     --dark: #006666;
     --superdark: #004c4c;
+    
 }
 
 html, body {
@@ -13,6 +14,7 @@ html, body {
 
 body {
     background-color: var(--superdark);
+    font-family: Arial;
 }
 
 .blog_container {
@@ -22,11 +24,14 @@ body {
 }
 
 .blog_title {
-
+    background-color: var(--light);
+    padding: 10px;
+    font-size: 20px;
 }
 
 .blog_contents {
-
+    padding: 10px;
+    color: #c3cecd;
 }
 
 
