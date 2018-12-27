@@ -16,6 +16,7 @@ body {
 }
 
 .blog_container {
+    background-color: var(--dark);
 
 }
 
