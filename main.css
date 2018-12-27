@@ -1,4 +1,3 @@
-<style>
 :root {
     --superlight: #b2d8d8;
     --light:  #66b2b2;
@@ -15,4 +14,4 @@ html, body {
 body {
     background-color: var(--superdark);
 }
-</style>
+
