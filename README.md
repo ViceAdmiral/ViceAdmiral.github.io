@@ -1,2 +1,3 @@
 # ViceAdmiral.github.io
-Three six nine
+Assume the crash position
+
