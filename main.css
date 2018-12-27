@@ -29,6 +29,7 @@ body {
     background-color: var(--light);
     padding: 10px;
     font-size: 20px;
+    color: #FFFFFF;
 }
 
 .blog_contents {
