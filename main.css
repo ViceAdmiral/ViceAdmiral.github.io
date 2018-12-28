@@ -54,14 +54,14 @@ body {
     margin-bottom: 10px;
 }
 
-.row_A {
+.board_row{
     font-size: 30px;
     color: #008080;
 
     
 }
 
-.A1 {
+.odd_box {
     background-color: var(--light);
     font-size: 30px;
     color: #b2d8d8;
@@ -73,7 +73,7 @@ body {
     float: left;
 }
 
-.A2 {
+.even_box {
     background-color: var(--superlight);
     border-style: none;
     border-color: #000000;
@@ -84,95 +84,4 @@ body {
 }
 
 
-.A3 {
-    background-color: var(--light);
-    font-size: 30px;
-    color: #b2d8d8;
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-
-.A4 {
-    background-color: var(--superlight);
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-.A5 {
-    background-color: var(--light);
-    font-size: 30px;
-    color: #b2d8d8;
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-.A6 {    
-    background-color: var(--superlight);
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-
-.A7 {
-    background-color: var(--light);
-    font-size: 30px;
-    color: #b2d8d8;
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-
-.A8 {
-    background-color: var(--superlight);
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-.A9 {
-    background-color: var(--light);
-    font-size: 30px;
-    color: #b2d8d8;
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
-
-
-.A10 {
-    background-color: var(--superlight);
-    border-style: none;
-    border-color: #000000;
-    border-width: 2px;
-    height: 96px;
-    width: 96px;
-    float: left;
-}
 
