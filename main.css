@@ -37,4 +37,12 @@ body {
     color: #c3cecd;
 }
 
+<!-- Stratego -->
 
+
+.board_header {
+    background-color: var(--light);
+    padding: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
