@@ -51,6 +51,11 @@ body {
     color: #FFFFFF;
 }
 
+.row_A {
+    display: grid;
+    
+}
+
 .A1 {
     background-color: var(--medium);
     padding: 10px;
