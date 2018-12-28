@@ -69,6 +69,8 @@ body {
 
 .even_box {
     background-color: var(--superlight);
+    font-size: 30px;
+    color: #FFFFFF;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
