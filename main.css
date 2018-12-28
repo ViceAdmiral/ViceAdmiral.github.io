@@ -37,8 +37,6 @@ body {
     color: #c3cecd;
 }
 
-<!-- Stratego -->
-
 .board_container {
     background-color: var(--dark);
     max-width: 960px;
