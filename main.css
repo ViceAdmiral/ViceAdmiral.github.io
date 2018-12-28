@@ -52,13 +52,7 @@ body {
     max-width: 960px;
         margin: 0 auto;
     margin-bottom: 10px;
-}
-
-.board_row{
-    font-size: 30px;
-    color: #008080;
-
-    
+    display: inline-grid;
 }
 
 .odd_box {
