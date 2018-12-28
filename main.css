@@ -52,7 +52,7 @@ body {
     max-width: 960px;
         margin: 0 auto;
     margin-bottom: 10px;
-    display: inline-grid;
+    display: grid;
 }
 
 .odd_box {
