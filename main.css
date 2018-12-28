@@ -38,7 +38,7 @@ body {
 }
 
 .board_container {
-    background-color: var(--dark);
+    background-color: var(--medium);
     max-width: 960px;
         margin: 0 auto;
     margin-bottom: 10px;
