@@ -53,7 +53,7 @@ body {
     color: #FFFFFF;
 }
 
-.board_header {
+.A1 {
     background-color: var(--medium);
     padding: 10px;
     font-size: 50px;
