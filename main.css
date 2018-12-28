@@ -69,6 +69,7 @@ body {
     border-width: 2px;
     height: 50px;
     width: 50px;
+    float: left;
 }
 
 .A2 {
@@ -81,6 +82,6 @@ body {
     border-width: 2px;
     height: 50px;
     width: 50px;
-    float: right;
+    float: left;
 }
 
