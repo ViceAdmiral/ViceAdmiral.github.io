@@ -63,7 +63,6 @@ body {
 
 .A1 {
     background-color: var(--light);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -74,7 +73,6 @@ body {
 
 .A2 {
     background-color: var(--superlight);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -86,7 +84,6 @@ body {
 
 .A3 {
     background-color: var(--light);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -98,7 +95,6 @@ body {
 
 .A4 {
     background-color: var(--superlight);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -109,7 +105,6 @@ body {
 
 .A5 {
     background-color: var(--light);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -118,9 +113,8 @@ body {
     float: left;
 }
 
-.A6 {
+.A6 {    
     background-color: var(--superlight);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -132,7 +126,6 @@ body {
 
 .A7 {
     background-color: var(--light);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -144,7 +137,6 @@ body {
 
 .A8 {
     background-color: var(--superlight);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -155,7 +147,6 @@ body {
 
 .A9 {
     background-color: var(--light);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -167,7 +158,6 @@ body {
 
 .A10 {
     background-color: var(--superlight);
-    padding: 10px;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
