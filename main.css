@@ -37,18 +37,18 @@ body {
     color: #c3cecd;
 }
 
-.board_container {
-    background-color: var(--medium);
-    max-width: 960px;
-        margin: 0 auto;
-    margin-bottom: 10px;
-}
-
 .board_header {
     background-color: var(--light);
     padding: 10px;
     font-size: 50px;
     color: #FFFFFF;
+    max-width: 960px;
+        margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.board_container {
+    background-color: var(--medium);
     max-width: 960px;
         margin: 0 auto;
     margin-bottom: 10px;
