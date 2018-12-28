@@ -55,6 +55,8 @@ body {
 }
 
 .row_A {
+    font-size: 30px;
+    color: #008080;
 
     
 }
@@ -62,8 +64,6 @@ body {
 .A1 {
     background-color: var(--light);
     padding: 10px;
-    font-size: 50px;
-    color: #FFFFFF;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
@@ -75,8 +75,6 @@ body {
 .A2 {
     background-color: var(--superlight);
     padding: 10px;
-    font-size: 50px;
-    color: #FFFFFF;
     border-style: none;
     border-color: #000000;
     border-width: 2px;
