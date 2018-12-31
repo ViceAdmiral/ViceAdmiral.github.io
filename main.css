@@ -55,6 +55,21 @@ body {
     display: grid;
 }
 
+#stratego_board {
+          background-color: var(--medium);
+          max-width: 800px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+		
+    .cell {
+      height: 80px;
+      background-color: var(--superlight);
+      border: 1px solid var(--light);
+    }
+
 .odd_box {
     background-color: var(--light);
     font-size: 30px;
