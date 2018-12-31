@@ -55,7 +55,7 @@ body {
     display: grid;
 }
 
-.stratego_board {
+#stratego_board {
           background-color: var(--medium);
           max-width: 800px;
           margin: 0 auto;
