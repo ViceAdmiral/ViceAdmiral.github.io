@@ -1,0 +1,162 @@
+<html>
+<head>
+<!--     <link rel="stylesheet" type="text/css" href="main.css"> -->
+    <title>Stratego!</title>
+</head>
+<body>
+  <style>
+      :root {
+          --superlight: #b2d8d8;
+          --light:  #66b2b2;
+          --medium: #008080;
+          --dark: #006666;
+          --superdark: #004c4c;
+      }
+	
+      html, body {
+          margin: 0;
+          padding: 0;
+      }
+		
+      body {
+          background-color: var(--superdark);
+          font-family: Arial;
+          padding-top: 10px;
+      }
+    
+    #stratego_board {
+          background-color: var(--medium);
+          max-width: 800px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+		
+    .cell {
+      height: 80px;
+      background-color: var(--superlight);
+      border: 1px solid var(--light);
+    }
+  </style>
+  <script>
+		let board = document.getElementById ("stratego_board");
+    
+    	let element = document.createElement ("div");
+    	element.classList = "cell";
+    	
+    	// Loop the code in the block 100 times
+    	// set up variable i equal to 0
+    	// for every time we execute this block's code, check if i is less than 100
+    	// if it is not, stop running the block. if it is, add 1 to i
+    	for (let i = 0; i < 100; i++) {
+          // Duplicate element with cloneNode ()
+          // send result of cloneNode () as argument of appendChild ()
+          // append the element copy to the board element
+          board.appendChild (element.cloneNode ());
+        }
+    	
+    	
+    
+    
+    
+    
+    
+//     	let elementA = {
+//           classList : ""
+//         };
+    
+//     	elementA.classList = "cell";
+    	
+//     	let pc = {
+//           cost : 1200,
+//           videocard : {
+//             cost: 500
+//           }
+//         };
+    
+//     	let pcCost = pc.cost;
+    
+//     	let videocardCost = pc.videocard.cost
+    	
+//         // A fundamental part of every programming language is a function. A function is a block of one or more lines of code that is
+//         // executed upon "calling" the function by its name.
+        
+//         // Below is a function called "getOne" which, as the name implies, gives you a 1 when you call it.
+        
+//         // The function keyword denotes the block as a function
+//         // following the keyword, the function's name "getOne"
+//         // after the name, a list of variables to give to the function (here we aren't giving it anything)
+//         // the brackets { and } encapsulate the series of commands and make it a part of the function
+//         // the return keyword marks the end of the function
+//         // the value after the return keyword is the result of the function's execution
+        
+//         function getOne () {
+//           return 1;
+//         }
+        
+//     	// If we want to use getOne to get 1, we "call" it like so:
+//     	let one = getOne ();
+        
+//         // If we want to make a function that adds two numbers together, we can do it like so:
+//     	function add (numberA, numberB) {
+//           return numberA + numberB;
+//         }
+    
+//     	// and call it like so:
+//     	let addition = add (1, 1);
+    
+//     	// OR like this
+//     	let numA = 1;
+//     	let numB = 1;
+//     	let result = add (numA, numB);
+    
+//     	function divide (numberA, numberB) {
+//           let addition = add (numberA, 1)
+//           return addition / numberB;
+//         }
+        
+//     	let division = divide (6, 3);
+    		
+//     	function sayHello () {
+//           return "Hello";
+//         }
+    
+//     	function sayWorld () {
+//           return "World";
+//         }
+    
+//     	function saylloWorld () {
+//           return sayHello () + sayWorld ();
+//         }
+    	
+    	
+    	
+//     	// In a lanaguage such as Javascript (what we are using right now), you can organize the junk you do into objects. An object is just
+//     	// a way to store information in a way that makes sense to a human.
+    
+//     	// Im going to write an object for a car that works better
+    	
+//     	let car = {
+//           doors : 4,
+//           tires : 4,
+//           getColor : function () {
+//             return "white";
+//           }
+//         };
+    	
+//     	let color = car.getColor ();
+    
+//     	// We made a new variable (just as we have in the past) called "car". We set this variable to this block of data. In order to access
+//     	// this data, we would call it like this:
+    	
+//     	// Getting the number of doors
+//     	let numDoors = car.doors;
+    
+//     	// Setting the number of tires to something else
+//     	car.tires = 7;
+    
+  </script>
+  <div id="stratego_board"></div>
+</body>
+</html>
