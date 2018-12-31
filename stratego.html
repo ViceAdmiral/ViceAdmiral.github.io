@@ -5,179 +5,23 @@
 </head>
 <body>
       
-        <div class="board_header">
-          Stratego!
-          </div>
+        <script>
+		let board = document.getElementById ("stratego_board");
     
-       <div class="board_container">
-          <div class="board_row">
-            <div class="odd_box">
-                A1
-            </div>
-            <div class="even_box">
-                A2
-            </div>
-            <div class="odd_box">
-                A3
-            </div>
-            <div class="even_box">
-                A4
-            </div>
-            <div class="odd_box">
-                A5
-            </div>
-            <div class="even_box">
-                A6
-            </div>
-            <div class="odd_box">
-                A7
-            </div>
-            <div class="even_box">
-                A8
-            </div>
-            <div class="odd_box">
-                A9
-            </div>
-            <div class="even_box">
-                A10
-            </div>
-          </div>
-           
-           <div class="board_row">
-            <div class="even_box">
-                B1
-            </div>
-            <div class="odd_box">
-                B2
-            </div>
-            <div class="even_box">
-                B3
-            </div>
-            <div class="odd_box">
-                B4
-            </div>
-            <div class="even_box">
-                B5
-            </div>
-            <div class="odd_box">
-                B6
-            </div>
-            <div class="even_box">
-                B7
-            </div>
-            <div class="odd_box">
-                B8
-            </div>
-            <div class="even_box">
-                B9
-            </div>
-            <div class="odd_box">
-                B10
-            </div>
-          </div>
-           
-          <div class="board_row">
-           <div class="odd_box">C1</div>
-           <div class="even_box">C2</div>
-           <div class="odd_box">C3</div>
-           <div class="even_box">C4</div>
-           <div class="odd_box">C5</div>
-           <div class="even_box">C6</div>
-           <div class="odd_box">C7</div>
-           <div class="even_box">C8</div>
-           <div class="odd_box">C9</div>
-           <div class="even_box">C10</div>  
-      </div>
-           
-           <div class="board_row">
-           <div class="even_box">D1</div>
-           <div class="odd_box">D2</div>
-           <div class="even_box">D3</div>
-           <div class="odd_box">D4</div>
-           <div class="even_box">D5</div>
-           <div class="odd_box">D6</div>
-           <div class="even_box">D7</div>
-           <div class="odd_box">D8</div>
-           <div class="even_box">D9</div>
-           <div class="odd_box">D10</div>
-      </div>
-           
-           <div class="board_row">
-           <div class="odd_box">E1</div>
-           <div class="even_box">E2</div>
-           <div class="odd_box">E3</div>
-           <div class="even_box">E4</div>
-           <div class="odd_box">E5</div>
-           <div class="even_box">E6</div>
-           <div class="odd_box">E7</div>
-           <div class="even_box">E8</div>
-           <div class="odd_box">E9</div>
-           <div class="even_box">E10</div>  
-      </div>
-           
-           <div class="board_row">
-           <div class="even_box">F1</div>
-           <div class="odd_box">F2</div>
-           <div class="even_box">F3</div>
-           <div class="odd_box">F4</div>
-           <div class="even_box">F5</div>
-           <div class="odd_box">F6</div>
-           <div class="even_box">F7</div>
-           <div class="odd_box">F8</div>
-           <div class="even_box">F9</div>
-           <div class="odd_box">F10</div>
-      </div>
-           
-           <div class="board_row">
-           <div class="odd_box">G1</div>
-           <div class="even_box">G2</div>
-           <div class="odd_box">G3</div>
-           <div class="even_box">G4</div>
-           <div class="odd_box">G5</div>
-           <div class="even_box">G6</div>
-           <div class="odd_box">G7</div>
-           <div class="even_box">G8</div>
-           <div class="odd_box">G9</div>
-           <div class="even_box">G10</div>  
-      </div>
-           
-           <div class="board_row">
-           <div class="even_box">H1</div>
-           <div class="odd_box">H2</div>
-           <div class="even_box">H3</div>
-           <div class="odd_box">H4</div>
-           <div class="even_box">H5</div>
-           <div class="odd_box">H6</div>
-           <div class="even_box">H7</div>
-           <div class="odd_box">H8</div>
-           <div class="even_box">H9</div>
-           <div class="odd_box">H10</div>
-      </div>
-                     
-           <div class="board_row">
-           <div class="odd_box">I1</div>
-           <div class="even_box">I2</div>
-           <div class="odd_box">I3</div>
-           <div class="even_box">I4</div>
-           <div class="odd_box">I5</div>
-           <div class="even_box">I6</div>
-           <div class="odd_box">I7</div>
-           <div class="even_box">I8</div>
-           <div class="odd_box">I9</div>
-           <div class="even_box">I10</div>  
-      </div>
-           
-           <div class="board_row">
-           <div class="even_box">J1</div>
-           <div class="odd_box">J2</div>
-           <div class="even_box">J3</div>
-           <div class="odd_box">J4</div>
-           <div class="even_box">J5</div>
-           <div class="odd_box">J6</div>
-           <div class="even_box">J7</div>
-           <div class="odd_box">J8</div>
-           <div class="even_box">J9</div>
-           <div class="odd_box">J10</div>
-      </div>
+    	let element = document.createElement ("div");
+    	element.classList = "cell";
+    	
+    	// Loop the code in the block 100 times
+    	// set up variable i equal to 0
+    	// for every time we execute this block's code, check if i is less than 100
+    	// if it is not, stop running the block. if it is, add 1 to i
+    	for (let i = 0; i < 100; i++) {
+          // Duplicate element with cloneNode ()
+          // send result of cloneNode () as argument of appendChild ()
+          // append the element copy to the board element
+          board.appendChild (element.cloneNode ());
+        }
+        </script>    
+     
 </body>
 </html>
